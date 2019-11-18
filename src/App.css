@@ -1,3 +1,8 @@
 .app {
   margin: 2rem;
 }
+
+.nv-s-l-a:hover {
+  color: red;
+  text-decoration: none;
+}
