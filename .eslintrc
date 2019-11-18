@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "node": true,
+    "amd": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "jsx": true,
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "jest",
+    "prettier"
+  ],
+  "extends": [
+    "prettier",
+    "prettier/react",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/standard"
+  ],
+  "rules": {
+    "indent": "off",
+    "no-console": "off",
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "prettier/prettier": "error"
+  }
+}
