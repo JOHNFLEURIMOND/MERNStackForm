@@ -121,7 +121,7 @@ class App extends Component {
                       .required("Your State Name Is Required!"),
                     phone: yup
                     .string()
-                      .matches(phoneRegExp, 'Your Phone Number Is Required Or Is Not Valid'),
+                      .matches(phoneRegExp, 'Your Phone Number Is Not Valid').required("Your State Name Is Required!"),
                     zip: yup
                       .string()
                       .required("Zip Code Is Required")
