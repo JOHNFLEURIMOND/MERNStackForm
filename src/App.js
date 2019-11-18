@@ -79,13 +79,22 @@ class App extends Component {
               <div className="b b-c p-a700">
                 <Formik
                   initialValues={{
-                    firstName: "",
-                    middleName: "",
-                    lastName: "",
-                    phone: "",
-                    email: "",
-                    confirmEmail: "",
-                    comments: ""
+                    firstName: '',
+                    middleName: '',
+                    lastName: '',
+                    address: '',
+                    unit: '',
+                    state: '',
+                    city: '',
+                    zip: '',
+                    phone: '',
+                    email: '',
+                    confirmEmail: '',
+                    typeOfDegree: '',
+                    degreeAttained: '',
+                    educationalInstitution: '',
+                    otherInformation: '',
+                    comments: '',
                   }}
                   validationSchema={yup.object().shape({
                     firstName: yup
