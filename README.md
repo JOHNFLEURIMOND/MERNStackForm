@@ -185,6 +185,7 @@ The CORS standard is needed because it allows servers to specify not just who ca
 ```const cors = require('cors');
 
 app.use(cors());
+```
 
 ## Lessons Learned:
 How to properly use Formik, Using Axios to post that data onSubmit click of a button.
@@ -222,7 +223,8 @@ This wasn't totally smooth though because I had issues on hitting the routes fro
               }, 400);
             }}
             
-action="http://localhost:3030/api/form" method="POST" ```
+action="http://localhost:3030/api/form" method="POST"
+```
 
 ```const PORT = process.env.PORT || 3030;
 const app = express();
