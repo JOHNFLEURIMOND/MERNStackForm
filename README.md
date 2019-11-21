@@ -9,7 +9,7 @@
 Install Passport.
 
  # How It's Works:white_check_mark::
-1.) A user can send form data to Mongodb Databse.
+1.) A user can send form data to Mongodb Database.
 
 2.) User can see the json data once submit as an alert!
 
@@ -187,7 +187,7 @@ The CORS standard is needed because it allows servers to specify not just who ca
 app.use(cors());
 ```
 
-## Lessons Learned:
+## Lessons Learned :mortar_board::
 How to properly use Formik, Using Axios to post that data onSubmit click of a button.
 Formik had cool props like errors and touched and used correctly when set up if a field is visited (touched) when you set up your Yup for object schema validation. It has an API that's pretty similar Joi / React PropTypes and this is a complementary package Formik) when it is blurred it will display the error you created. Here is an example of the code:
 
