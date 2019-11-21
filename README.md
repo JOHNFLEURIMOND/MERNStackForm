@@ -164,11 +164,11 @@ app.listen(PORT, () => {
 
 Express allows us to add middleware like body-parser to our application with the use method. You’ll hear the term middleware a lot when dealing with Express. These things are basically plugins that change the request or response object before they get handled by our application. Make sure you place body-parser before your CRUD handlers!
 
+```//------
 const express = require('express')
 const bodyParser= require('body-parser')
 const app = express()
 
-```//------
 app.use(
     bodyParser.urlencoded({
         extended: true,
@@ -205,7 +205,7 @@ With firstName being the initialValue passed thru to Formik from my higher order
 
 Most importantly I learned how to set up Express and MongoDB in a file quiet quickly and setting up my package.json to have concurrently run both scripts for the backend and frontend servers.
 
-This wasn't totally smooth though because I had issues on hitting the routes from the front end to the backend. So for anyone in the future runs into this issue, remember when you set up your server file and it opens up on lets say port http://localhost:3030/ and your React app is on http://localhost:3000/ you have to post on the front end like so ` axios .post("localhost:3030/api/form", values, actions).then(response => {console.log(response); })` Because thats where your server is listening to.
+This wasn't totally smooth though because I had issues on hitting the routes from the front end to the backend. So for anyone in the future runs into this issue, remember when you set up your server file and it opens up on lets say port http://localhost:3030/ and your React app is on http://localhost:3000/ you have to post on the front end like so `axios .post("localhost:3030/api/form", values, actions).then(response => {console.log(response); })` Because thats where your server is listening to.
 
     ```onSubmit={(values, actions) => {
               setTimeout(() => {
