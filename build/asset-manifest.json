@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7948f35.chunk.css",
-    "main.js": "/static/js/main.8e46fa7e.chunk.js",
-    "main.js.map": "/static/js/main.8e46fa7e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b28c0137.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b28c0137.js.map",
-    "static/css/2.833dd627.chunk.css": "/static/css/2.833dd627.chunk.css",
-    "static/js/2.391d6265.chunk.js": "/static/js/2.391d6265.chunk.js",
-    "static/js/2.391d6265.chunk.js.map": "/static/js/2.391d6265.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.37c100583091416e450e4cfc3e71b199.js": "/precache-manifest.37c100583091416e450e4cfc3e71b199.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.833dd627.chunk.css.map": "/static/css/2.833dd627.chunk.css.map",
-    "static/css/main.f7948f35.chunk.css.map": "/static/css/main.f7948f35.chunk.css.map"
+    "main.css": "/JOHNFLEURIMOND/MERNStackForm/static/css/main.f7948f35.chunk.css",
+    "main.js": "/JOHNFLEURIMOND/MERNStackForm/static/js/main.11c510a8.chunk.js",
+    "main.js.map": "/JOHNFLEURIMOND/MERNStackForm/static/js/main.11c510a8.chunk.js.map",
+    "runtime-main.js": "/JOHNFLEURIMOND/MERNStackForm/static/js/runtime-main.0845b97c.js",
+    "runtime-main.js.map": "/JOHNFLEURIMOND/MERNStackForm/static/js/runtime-main.0845b97c.js.map",
+    "static/css/2.833dd627.chunk.css": "/JOHNFLEURIMOND/MERNStackForm/static/css/2.833dd627.chunk.css",
+    "static/js/2.be500eb0.chunk.js": "/JOHNFLEURIMOND/MERNStackForm/static/js/2.be500eb0.chunk.js",
+    "static/js/2.be500eb0.chunk.js.map": "/JOHNFLEURIMOND/MERNStackForm/static/js/2.be500eb0.chunk.js.map",
+    "index.html": "/JOHNFLEURIMOND/MERNStackForm/index.html",
+    "precache-manifest.384df36af8aa4cebdba3e0f67a06a960.js": "/JOHNFLEURIMOND/MERNStackForm/precache-manifest.384df36af8aa4cebdba3e0f67a06a960.js",
+    "service-worker.js": "/JOHNFLEURIMOND/MERNStackForm/service-worker.js",
+    "static/css/2.833dd627.chunk.css.map": "/JOHNFLEURIMOND/MERNStackForm/static/css/2.833dd627.chunk.css.map",
+    "static/css/main.f7948f35.chunk.css.map": "/JOHNFLEURIMOND/MERNStackForm/static/css/main.f7948f35.chunk.css.map",
+    "static/js/2.be500eb0.chunk.js.LICENSE": "/JOHNFLEURIMOND/MERNStackForm/static/js/2.be500eb0.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.b28c0137.js",
+    "static/js/runtime-main.0845b97c.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.391d6265.chunk.js",
+    "static/js/2.be500eb0.chunk.js",
     "static/css/main.f7948f35.chunk.css",
-    "static/js/main.8e46fa7e.chunk.js"
+    "static/js/main.11c510a8.chunk.js"
   ]
 }
