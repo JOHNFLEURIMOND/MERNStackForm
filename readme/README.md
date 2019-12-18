@@ -1,6 +1,8 @@
 # :checkered_flag:What It Looks Like :checkered_flag:: 
 
-![ReactEmail](public/App.png)
+![ReactEmail](../public/App.png)
+
+Check it out here : https://mern-formik.herokuapp.com/
 
 # How It's Made :nut_and_bolt:🔨 :hammer::wrench::
  This application built with React.js, Express, Node, Passport, & Using MongDB Atlas for a database.
