@@ -1,6 +1,6 @@
 # :checkered_flag:What It Looks Like :checkered_flag:: 
 
-![ReactEmail](../public/App.png)
+![ReactEmail](public/App.png)
 
 Check it out here : https://mern-formik.herokuapp.com/
 
