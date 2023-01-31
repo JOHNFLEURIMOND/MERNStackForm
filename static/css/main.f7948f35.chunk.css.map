@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,WACF,CAEA,gBACE,SAAU,CACV,oBACF","file":"main.f7948f35.chunk.css","sourcesContent":[".app {\n  margin: 2rem;\n}\n\n.nv-s-l-a:hover {\n  color: red;\n  text-decoration: none;\n}\n"]}
