@@ -59,8 +59,7 @@
     "prettier": "prettier --write src/**/*.{ts,tsx,js,css}",
     "prettier-watch": "onchange  '**/*.{ts,tsx,js,css}' -- prettier --write {{changed}}",
     "client": "react-scripts start --prefix src",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "echo Skip build on Heroku"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --quiet"
@@ -68,8 +67,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "heroku-run-build-script": true,
-  "postinstall": "npx serve",
   "browserslist": {
     "production": [
       ">0.2%",
