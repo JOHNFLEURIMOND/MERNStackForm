@@ -2,7 +2,7 @@
 
 ![ReactEmail](public/App.png)
 
-Check it out here : https://mern-formik.herokuapp.com/
+Check it out here : bostonmernstackapp.netlify.app
 
 # How It's Made :nut_and_bolt:🔨 :hammer::wrench::
  This application built with React.js, Express, Node, Passport, & Using MongDB Atlas for a database.
