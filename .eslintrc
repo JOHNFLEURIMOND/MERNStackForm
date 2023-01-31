@@ -29,7 +29,7 @@
   "rules": {
     "indent": "off",
     "no-console": "off",
-    "quotes": ["error", "double"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     "semi": ["error", "always"],
     "prettier/prettier": "error"
   }

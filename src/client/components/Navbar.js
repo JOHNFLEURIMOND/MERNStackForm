@@ -8,7 +8,12 @@ export default function Navbar() {
 
         <ul className="nv-s-l">
           <li className="nv-s-l-i">
-            <label for="nv-s-tr" className="nv-s-l-b" type="button" style={{color: "red"}}>
+            <label
+              for="nv-s-tr"
+              className="nv-s-l-b"
+              type="button"
+              style={{ color: 'red' }}
+            >
               John Fleurimond
             </label>
           </li>
